@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="MNTN-Landing Page (Community)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>MNTN - Explore the Mountains</title>
+  </head>
+  <body class="font-[Inter]">
+    <!--NAV-->
+    <nav
+      class="absolute top-0 left-0 right-0 z-50 flex items-center justify-between px-3 py-3 lg:p-4"
+    >
+      <div>
+        <img
+          src="img/Logo (2).png"
+          alt="logo of company"
+          class="w-16 md:w-24 lg:w-36"
+        />
+      </div>
+
+      <ul class="flex gap-3 list-none md:gap-6 lg:gap-8">
+        <li>
+          <a
+            href="#"
+            class="text-xs text-white/85 hover:text-[#FBD784] md:text-base lg:text-2xl"
+            >Equipment</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-xs text-white/85 hover:text-[#FBD784] md:text-base lg:text-2xl"
+            >About us</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-xs text-white/85 hover:text-[#FBD784] md:text-base lg:text-2xl"
+            >Blog</a
+          >
+        </li>
+      </ul>
+
+      <div
+        class="flex items-center gap-1 text-sm text-white/85 hover:text-white cursor-pointer transition-opacity duration-200 md:text-base lg:text-xl"
+      >
+        <ion-icon name="person-outline" class="lg:w-7"></ion-icon>
+
+        Account
+      </div>
+    </nav>
+
+    <!-- 
+     HERO -->
+    <main>
+      <section class="relative h-screen min-h-[600px] overflow-hidden">
+        <div
+          id="heroBg"
+          class="absolute inset-0 bg-cover bg-[center_30%] brightness-[0.65] scale-[1.02] -z-10"
+          style="background-image: url(&quot;/img/mountain.png&quot;)"
+        ></div>
+
+        <div
+          class="absolute bottom-0 left-0 w-full h-44 bg-gradient-to-t from-[#0B1D26] to-transparent"
+        ></div>
+        <!-- BG image -->
+
+        <!-- Sidebar "Follow us" -->
+
+        <div
+          class="absolute left-0 top-1/2 -translate-y-1/2 z-20 flex flex-col items-center gap-10 text-white p-0 m-0"
+        >
+          <!-- Follow us Container -->
+
+          <div class="flex items-center justify-center h-24 w-12">
+            <span
+              class="text-[0.7rem] tracking-[0.2em] uppercase rotate-[90deg] whitespace-nowrap md:text-[.9rem] lg:text-[1rem]"
+            >
+              Follow us
+            </span>
+          </div>
+
+          <!-- Social icons -->
+          <div class="flex flex-col gap-4 items-center">
+            <a href="#" class="hover:opacity-70 transition">
+              <ion-icon name="logo-instagram" class="text-xl"></ion-icon>
+            </a>
+            <a href="#" class="hover:opacity-70 transition">
+              <ion-icon name="logo-twitter" class="text-xl"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2 w-full max-w-xl md:max-w-3xl xl:max-w-5xl px-10 md:px-20"
+        >
+          <div class="flex items-center gap-4 md:gap-6 mb-4 md:mb-8">
+            <div class="w-8 md:w-16 h-[2px] bg-[#FBD784]"></div>
+
+            <span
+              class="text-[0.7rem] md:text-[0.9rem] xl:text-[1rem] tracking-[0.3em] md:tracking-[0.5em] uppercase text-[#FBD784] font-bold"
+            >
+              A Hiking Guide
+            </span>
+          </div>
+
+          <h1
+            class="font-serif font-bold leading-[1.1] md:leading-[1.1] text-white text-4xl md:text-5xl xl:text-8xl"
+          >
+            Be Prepared For The Mountains And Beyond!
+          </h1>
+        </div>
+
+        <!-- Scroll down -->
+        <div
+          class="absolute bottom-8 left-1/2 z-20 cursor-pointer -translate-x-1/2 flex items-center hover:text-[#FBD784] transition-colors duration-300 text-[0.75rem] tracking-[0.15em] text-white md:text-[1rem] lg:right-8 lg:text-xl lg:bottom-32"
+        >
+          scroll down
+          <ion-icon name="arrow-down" class="ml-2 h-4"></ion-icon>
+        </div>
+
+        <!-- Start label -->
+
+        <div
+          class="absolute right-6 top-1/2 -translate-y-1/2 -translate-x-0 z-20 flex items-center gap-4"
+        >
+          <!-- labels -->
+          <div
+            class="flex flex-col items-end gap-4 text-white/60 text-xs md:text-base lg:text-xl"
+          >
+            <span
+              class="text-white inline-block hover:-translate-y-1 hover:text-[#FBD784] transition-all duration-300 cursor-pointer"
+              >START</span
+            >
+            <span>01</span>
+            <span>02</span>
+            <span>03</span>
+          </div>
+
+          <!-- line -->
+          <div class="relative w-px h-32 bg-white/20 md:w-1 lg:w-2 lg:h-36">
+            <div
+              class="absolute top-0 left-0 w-px h-10 bg-[#FBD784] md:w-1 lg:w-2"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!--
+     CONTENT SECTIONS (01, 02, 03)
+ -->
+      <section
+        class="bg-[#0B1D26] px-6 py-20 md:px-16 lg:px-40 flex flex-col gap-24 md:gap-32 overflow-hidden"
+      >
+        <!-- SECTION 01 -->
+        <div
+          class="relative flex flex-col md:flex-row items-center gap-10 md:gap-20"
+        >
+          <div class="w-full md:flex-1 order-1 md:order-2">
+            <img src="/img/01.png" class="w-full shadow-2xl" alt="01" />
+          </div>
+
+          <div class="relative mt-4 w-full md:flex-1 order-2 md:order-1 z-10">
+            <span
+              class="absolute -top-20 -left-4 md:-top-28 md:-left-12 text-[6rem] md:text-[9rem] lg:text-[14rem] lg:-left-[7rem] lg:-top-48 text-white/5 font-bold -z-10"
+            >
+              01
+            </span>
+
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-10 h-[2px] bg-[#FBD784]"></div>
+              <span
+                class="text-[#FBD784] text-xs uppercase font-bold tracking-[4px] lg:text-xl"
+                >Get Started</span
+              >
+            </div>
+            <h2
+              class="text-white text-3xl md:text-5xl font-serif mb-6 lg:text-6xl"
+            >
+              What level of hiker are you?
+            </h2>
+            <p class="text-white/70 leading-[1.2] mb-6 lg:text-xl">
+              Determining what level of hiker you are can be an important tool
+              when planning future hikes. This hiking level guide will help you
+              plan hikes according to different hike ratings set by various
+              websites like All Trails and Modern Hiker. What type of hiker are
+              you – novice, moderate, advanced moderate, expert, or expert
+              backpacker?
+            </p>
+            <a
+              href="#"
+              class="text-[#FBD784] font-bold uppercase text-sm flex items-center gap-2 lg:text-xl hover:text-[#C9A24A] transition-colors duration-300"
+              >read more <ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <!-- SECTION 02 -->
+        <div
+          class="relative flex flex-col md:flex-row items-center gap-10 md:gap-20"
+        >
+          <div class="w-full md:flex-1 order-1">
+            <img src="/img/02.png" class="w-full shadow-2xl" alt="02" />
+          </div>
+
+          <div class="relative w-full md:flex-1 order-2 z-10">
+            <span
+              class="absolute -top-24 mt-1 -left-4 md:-top-24 text-[7rem] md:text-[9rem] lg:text-[15rem] lg:-top-48 text-white/5 font-bold -z-10"
+            >
+              02
+            </span>
+
+            <div class="flex items-center gap-4 m-4">
+              <div class="w-10 h-[2px] lg:w-12 bg-[#FBD784]"></div>
+              <span
+                class="text-[#FBD784] text-xs uppercase font-bold tracking-[4px] lg:text-xl"
+                >Hiking Essentials</span
+              >
+            </div>
+            <h2
+              class="text-white text-3xl md:text-5xl font-serif mb-6 lg:text-6xl"
+            >
+              Picking the right Hiking Gear!
+            </h2>
+            <p class="text-white/70 mb-6 lg:text-xl">
+              The nice thing about beginning hiking is that you don’t really
+              need any special gear, you can probably get away with things you
+              already have. Let’s start with clothing. A typical mistake hiking
+              beginners make is wearing jeans and regular clothes, which will
+              get heavy and chafe wif they get sweaty or wet.
+            </p>
+            <a
+              href="#"
+              class="text-[#FBD784] font-bold uppercase text-sm flex items-center gap-2 lg:text-xl hover:text-[#C9A24A] transition-colors duration-300"
+              >read more <ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <!-- SECTION 03 -->
+        <div
+          class="relative flex flex-col md:flex-row items-center gap-10 md:gap-20"
+        >
+          <div class="w-full md:flex-1 order-1 md:order-2">
+            <img src="/img/03.png" class="w-full shadow-2xl" alt="03" />
+          </div>
+
+          <div class="relative w-full md:flex-1 order-2 md:order-1 z-10">
+            <span
+              class="absolute -top-16 -left-4 md:-top-24 md:-left-12 text-[7rem] md:text-[9rem] lg:text-[15rem] lg:-top-48 text-white/5 font-bold -z-10"
+            >
+              03
+            </span>
+
+            <div class="flex items-center gap-6 mt-6">
+              <div class="w-10 h-[2px] bg-[#FBD784] lg:w-12"></div>
+              <span
+                class="text-[#FBD784] text-xs uppercase font-bold tracking-[4px] lg:text-xl"
+                >Where you go is the key</span
+              >
+            </div>
+            <h2 class="text-white text-3xl md:text-5xl font-serif mb-6">
+              Understand Your Map & Timing
+            </h2>
+            <p class="text-white/70 mb-4 lg:text-xl">
+              To start, print out the hiking guide and map. If it’s raining,
+              throw them in a Zip-Lock bag. Read over the guide, study the map,
+              and have a good idea of what to expect. I like to know what my
+              next landmark is as I hike. For example, I’ll read the guide and
+              know that say, in a mile, I make a right turn at the junction..
+            </p>
+            <a
+              href="#"
+              class="text-[#FBD784] font-bold uppercase text-sm flex items-center gap-2 lg:text-xl hover:-translate-y- hover:text-[#C9A24A] transition-colors duration-300"
+              >read more <ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#0B1D26] text-white px-6 py-20 lg:px-40">
+      <div
+        class="max-w-7xl mx-auto flex flex-col lg:flex-row lg:justify-between gap-12 lg:gap-20"
+      >
+        <div class="flex flex-col justify-between max-w-sm">
+          <div>
+            <h2 class="font-serif text-3xl md:text-4xl mb-4 tracking-wider">
+              MNTN
+            </h2>
+            <p class="text-white/70 text-sm md:text-base leading-relaxed mb-8">
+              Get out there & discover your next slope, mountain & destination!
+            </p>
+          </div>
+
+          <p class="text-white/30 text-xs md:text-sm mt-auto">
+            Copyright 2023 MNTN, Inc. Terms & Privacy
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-10 md:gap-20 lg:gap-32">
+          <div>
+            <h3
+              class="text-[#FBD784] text-lg font-bold mb-6 md:text-xl whitespace-nowrap"
+            >
+              More on The Blog
+            </h3>
+            <ul class="space-y-4 text-white/80 text-sm md:text-base">
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition"
+                  >About MNTN</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition"
+                  >Contributors & Writers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition"
+                  >Write For Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3
+              class="text-[#FBD784] text-lg font-bold mb-6 md:text-xl whitespace-nowrap"
+            >
+              More on MNTN
+            </h3>
+            <ul class="space-y-4 text-white/80 text-sm md:text-base">
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition">The Team</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition">Jobs</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FBD784] transition">Press</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
